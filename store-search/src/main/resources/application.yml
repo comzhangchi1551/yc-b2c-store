@@ -11,3 +11,8 @@ feign:
 spring:
   profiles:
     active: mq  #激活mq的配置
+  elasticsearch:
+    rest:
+      uris: http://10.18.116.193:9200
+      username: elastic
+      password: 12345678
