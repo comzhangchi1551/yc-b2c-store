@@ -36,7 +36,7 @@ public class SearchConfiguration {
     public RestHighLevelClient restHighLevelClient(){
         RestHighLevelClient client =
                 new RestHighLevelClient(
-                        RestClient.builder(HttpHost.create("http://192.168.68.230:9200")));
+                        RestClient.builder(HttpHost.create("http://localhost:9200")));
 
         return client;
     }
